@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    .black-section {
+      background-color: #000;
+      color: white;
+    }
+    .white-section {
+      background-color: #fff;
+      color: #333;
+    }
+    .section-content {
+      width: 50%;
+      margin: auto;
+      text-align: center;
+    }
+    .section-content img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>My Portfolio</h1>
+  </div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about" class="black-section">
+  <div class="section-content">
+    <img src="pfp.jpeg" alt="Your Picture" style="width: 200px;">
+    <h2>GDnichoTP</h2>
+  </div>
+</section>
+
+<section id="portfolio" class="white-section">
+  <div class="section-content">
+    <img src="work.png" alt="Portfolio Image" style="width: 200px;">
+    <h2>My Work</h2>
+    <p>Just a random shots i take.</p>
+  </div>
+</section>
+
+<section id="contact" class="black-section">
+  <div class="section-content">
+    <h2>Contact Me</h2>
+    <p>Full Name: Gede Nicholas Tejasukmana Putra</p>
+    <p>Email: denischoolneeds@gmail.com</p>
+    <p>Phone: +62 8952-4652-541</p>
+  </div>
+</section>
+
+</body>
+</html>
